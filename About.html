@@ -6,6 +6,18 @@
     <title>About My very nice blog </title>
 </head>
 <body>
+    <style>
+        .interactive-paragraph{
+            background-color: aqua;
+            color: black;
+            width: 100px; ;
+        }
+        .interactive-paragraph:hover{
+            background-color: cornflowerblue;
+            color:darkgreen;
+            width: 100px; ; 
+        }
+    </style>
     <h1>About My Very Nice Blog</h1>
     <a href="Index.html">Index</a>
     <p>This blog was developed in order to practice some skills in the HTML language.
@@ -17,8 +29,18 @@
         <img src="boda_memo.png" alt="The author of this blog: Hector Rodriguez">
     </div>
     <div>
+        <p>
+            Some of my hobbies are the following:
+            <ul class="interactive-paragraph">
+                <li>Playing football</li>
+                <li>Reading books</li>
+                <li>Hiking</li>
+            </ul>
+        </p>
+    </div>
+    <div>
         <p>I've worked in the following places:</p>
-        <ul>
+        <ul class="interactive-paragraph">
             <li>Subway sandwiches</li>
             <li>Telas Parisina</li>
             <li>Teletech call center</li>
